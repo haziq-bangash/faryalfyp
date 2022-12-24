@@ -4,7 +4,7 @@ import './App.css';
 import Avatars from './component/avatars'
 import Container from './component/UploadScript/container'
 import UserForm from './component/userform'
-import DataTable from './component/datatable'
+// import DataTable from './component/datatable'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Avatars />
       <Container />
       <UserForm />
-      <DataTable />
+      {/* <DataTable /> */}
     </>
   );
 }
